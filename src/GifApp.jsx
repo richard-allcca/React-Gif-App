@@ -11,7 +11,7 @@ const GifApp = () => {
     // TODO: format newValue to be a valid category name
     // if (categories.includes(newValue)) return;
 
-    setCategories([ newValue ])
+    setCategories(newValue)
   }
 
 

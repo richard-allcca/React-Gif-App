@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifApp/> Debe mostrar un snapshop del componente 1`] = `
+<div>
+  <h1>
+    Gif-app
+  </h1>
+  <form
+    aria-label="form"
+  >
+    <input
+      placeholder="Buscar gifs"
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Agregar
+    </button>
+  </form>
+  <h3 />
+  <p>
+    Loading...
+  </p>
+  <div
+    class="card-grid"
+  />
+</div>
+`;

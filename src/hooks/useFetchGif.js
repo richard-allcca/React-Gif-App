@@ -9,7 +9,7 @@ const useFetchGif = (categoria) => {
     const data = await getGifs(categoria)
     setImg(data)
     setIsLoading(false)
-    console.log(data)
+    // console.log(data)
   }
 
   useEffect(() => {
