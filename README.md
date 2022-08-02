@@ -1,6 +1,16 @@
-# Instalación y configuración de Jest + React Testing Library
+# Aplicación de  busquedas de Gif
 
-## En proyectos de React + Vite
+- Se utilizaron conceptos básicos de `React`
+- Se Realizaron `Test` a todos los componentes y archivos js
+- Al final se incluye configuración básica para `Testear` la aplicación
+
+## Vista Previa
+
+![Menú Principal](./src/img/react-gif-app.jpeg)
+
+## Instalación y configuración de Jest + React Testing Library
+
+### En proyectos de React + Vite
 
 1. Instalaciones:
 
