@@ -6,7 +6,7 @@
 
 ## Vista Previa
 
-![Menú Principal](./src/img/react-gif-app.jpeg)
+![Página Principal](./src/img/react-gif-app.jpeg)
 
 ## Instalación y configuración de Jest + React Testing Library
 

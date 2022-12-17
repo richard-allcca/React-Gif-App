@@ -1,33 +1,30 @@
-import React, { useState } from 'react'
-import { AddCategory, GifGrid } from './components/';
+import React, { useState } from "react";
+import { AddCategory, GifGrid } from "./components/";
 
 
 const GifApp = () => {
 
-  const [ categories, setCategories ] = useState('')
+   //?   Aqui NO uso un arreglo para almacenar las categorias
+   const [ categories, setCategories ] = useState("");
 
-  const onAddCategory = (newValue) => {
+   const onAddCategory = (newValue) => {
 
-    // TODO: format newValue to be a valid category name
-    // if (categories.includes(newValue)) return;
+      // if (categories.includes(newValue)) return; // no uso arreglo para almacenar las categorias
+      setCategories(newValue);
+   };
 
-    setCategories(newValue)
-  }
+   return (
+      <>
+         <h1>Gif-app</h1>
 
+         <AddCategory onAddCategory={(newValue) => onAddCategory(newValue)} />
 
-  return (
-    <>
-      <h1>Gif-app</h1>
-
-      <AddCategory onAddCategory={(newValue) => onAddCategory(newValue)} />
-
-      <GifGrid categoria={categories} />
-      {/* {categories.map((item, id) => {
+         <GifGrid categoria={categories} />
+         {/* {categories.map((item, id) => {
         return <GifGrid key={id} categoria={item} />
       })} */}
-
-    </>
-  )
-}
+      </>
+   );
+};
 
 export default GifApp;
