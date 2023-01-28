@@ -49,6 +49,7 @@ h3 {
   margin-right: 20px;
   max-width: 200px;
   max-height: 250px;
+  min-height: 250px;
   overflow: hidden;
 }
 
@@ -64,7 +65,10 @@ h3 {
 .card img {
   width: 100%;
   object-fit: contain;
+  min-height: 150px;
+  object-fit: cover;
 }
+
 /* AddCategory */
 button {
   background-color: hsl(271, 66%, 37%);
@@ -76,6 +80,7 @@ button {
   padding: 10px 15px;
   margin-bottom: 0.5rem;
 }
+
 /* Sidebar */
 .sidebar {
   border: 1px solid blue;
