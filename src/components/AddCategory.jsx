@@ -29,7 +29,7 @@ export const AddCategory = ({ onAddCategory }) => {
         onChange={ handleInput }
       />
 
-      <button type="submit">Agregar</button>
+      <button type="submit">Search</button>
 
     </form>
   );

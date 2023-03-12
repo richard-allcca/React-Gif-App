@@ -6,7 +6,7 @@
 
 ## Vista Previa
 
-![Página Principal](./src/img/react-gif-app.jpeg)
+![Página Principal](./src/img/Captura%20de%20pantalla%202023-03-12%20091254.png)
 
 ## Instalación y configuración de Jest + React Testing Library
 
